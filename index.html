@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Stickers JRD</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #0ddaad;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #caf315;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .product {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 15px;
+            width: 250px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .product:hover {
+            transform: scale(1.05);
+        }
+
+        .product img {
+            width: 100%;
+            border-bottom: 1px solid #ddd;
+            padding: 15px 0;
+        }
+
+        .product h3 {
+            font-size: 20px;
+            color: #333;
+            margin: 10px 0;
+        }
+
+        .product p {
+            color: #666;
+            font-size: 16px;
+            margin: 0 0 10px;
+        }
+
+        .price {
+            font-size: 18px;
+            color: #f50876;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .btn-buy {
+            background-color: #df1089;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .btn-buy:hover {
+            background-color: #e67e22;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos a la Tienda de Stickers
+            JRD
+        </h1>
+        <p>¡Encuentra los mejores stickers para personalizar tu mundo!</p>
+    </header>
+
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Productos</a>
+        <a href="#">Contacto</a>
+        <a href="#">Carrito</a>
+    </nav>
+
+    <div class="container">
+        <!-- Producto 1 -->
+        <div class="product">
+            <img src="https://image.freepik.com/free-vector/classic-pack-funny-stickers_23-2147677438.jpg" alt="Sticker 1">
+            <h3>Sticker Divertido </h3>
+            <p>Un sticker único para tus Cuadernos.</p>
+            <div class="price">$2.99</div>
+            <button class="btn-buy">Comprar</button>
+        </div>
+
+        <!-- Producto 2 -->
+        <div class="product">
+            <img src="https://i.pinimg.com/originals/f8/59/fa/f859fa424907857c6268d1e3df2cf64d.jpg" alt="Sticker 2">
+            <h3>Stickeres para moto</h3>
+            <p>Perfecto para tu moto.</p>
+            <div class="price">$4.00</div>
+            <button class="btn-buy">Comprar</button>
+        </div>
+
+        <!-- Producto 3 -->
+        <div class="product">
+            <img src="https://www.shutterstock.com/shutterstock/photos/2002974335/display_1500/stock-vector-watercolor-baby-safari-animal-sticker-set-2002974335.jpg" alt="Sticker 3">
+            <h3>Sticker de Animalito</h3>
+            <p>Un sticker tierno para los amantes de los animales.</p>
+            <div class="price">$3.99</div>
+            <button class="btn-buy">Comprar</button>
+        </div>
+
+        <!-- Producto 4 -->
+        <div class="product">
+            <img src="https://i.pinimg.com/originals/95/2b/36/952b36eaac507004e7e69e58ba1c0693.jpg" alt="Sticker 4">
+            <h3>Sticker Retro</h3>
+            <p>¡Viaja al pasado con este sticker retro!</p>
+            <div class="price">$2.49</div>
+            <button class="btn-buy">Comprar</button>
+        </div>
+
+        <!-- Producto 5 -->
+        <div class="product">
+            <img src="https://i.pinimg.com/originals/9c/04/18/9c04187103aa354797f7e5bcd5283d28.png" alt="Sticker 5">
+            <h3>Sticker de Viaje</h3>
+            <p>Perfecto para tus recuerdos de viaje.</p>
+            <div class="price">$4.99</div>
+            <button class="btn-buy">Comprar</button>
+        </div>
+
+        <!-- Producto 6 -->
+        <div class="product">
+            <img src="https://th.bing.com/th/id/R.f36f02b04ba03b3ecbc4423d6b25346a?rik=m5%2fZDtWg3cn%2bMw&riu=http%3a%2f%2fstatic3.depositphotos.com%2f1006457%2f207%2fv%2f950%2fdepositphotos_2077172-stock-illustration-fruit-stickers.jpg&ehk=RhUjiKryeNDp2Byl347cdZLCdsBFtoycE0ylBZNj4qE%3d&risl=&pid=ImgRaw&r=0" alt="Sticker 6">
+            <h3>Sticker Frutal</h3>
+            <p>Un sticker jugoso y fresco para tu colección.</p>
+            <div class="price">$3.29</div>
+            <button class="btn-buy">Comprar</button>
+        </div>
+
+        <!-- Producto 7 -->
+        <div class="product">
+            <img src="https://i.pinimg.com/originals/cd/d8/f0/cdd8f03020db48a12b32c48ede4eb743.png" alt="Sticker 7">
+            <h3>Sticker de Cielo</h3>
+            <p>Un toque celestial para tu estilo.</p>
+            <div class="price">$3.79</div>
+            <button class="btn-buy">Comprar</button>
+        </div>
+
+        <!-- Producto 8 -->
+        <div class="product">
+            <img src="https://i.etsystatic.com/21989653/r/il/c6bc17/2528639534/il_1588xN.2528639534_sv4u.jpg" alt="Sticker 8">
+            <h3>Sticker Espacial</h3>
+            <p>Explora el universo con este sticker galáctico.</p>
+            <div class="price">$4.49</div>
+            <button class="btn-buy">Comprar</button>
+        </div>
+
+        <!-- Producto 9 -->
+        <div class="product">
+            <img src="https://d2r9epyceweg5n.cloudfront.net/stores/001/784/411/products/b9144d857f0dcde35b710b001c3877861-1fd7dac809b7d7207a16435119577987-640-0.jpg" alt="Sticker 9">
+            <h3>Sticker de Gatito</h3>
+            <p>Gatito lunar.</p>
+            <div class="price">$2.99</div>
+            <button class="btn-buy">Comprar</button>
+        </div>
+
+        <!-- Producto 10 -->
+        <div class="product">
+            <img src="https://th.bing.com/th/id/R.c76a54b047666a43ec53a1ebf0554655?rik=j0esi9bfsd%2fWsQ&pid=ImgRaw&r=0" alt="Sticker 10">
+            <h3>Sticker Hero</h3>
+            <p>Diseño de heroes para tu libreta.</p>
+            <div class="price">$5.49</div>
+            <button class="btn-buy">Comprar</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Tienda de Stickers. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
